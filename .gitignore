@@ -21,6 +21,7 @@ data/**/*.jma
 data/**/*.jmo
 data/**/*.jms
 data/**/*.jxl
+data/**/*.pdn
 data/**/*.png
 data/**/*.psd
 data/**/*.tif
