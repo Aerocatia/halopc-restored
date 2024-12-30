@@ -6,9 +6,11 @@ An unmodified stock version of the Gearbox port will be unable to properly use t
 It requires the following features not supported by the stock Halo PC/Halo Custom Edition clients:
 
 - `shader_transparent_generic` support.
-- support for monochrome format bitmaps.
+- limited support for monochrome format bitmaps[^1].
 
 Usage of other unsupported features may be added at a later time depending on future modding efforts, mainly backporting MCC HUD anchors for proper widescreen support.
+
+[^1]:Only monochrome formats natively supported by d3d9 are used, so Y8 and A8Y8. AY8 and A8 are not used (A8 is technically supported by d3d9, but is rendered differently compared to Xbox). This still provides at minimum 50% space savings on large monochrome bitmaps like the HD HUD.
 
 ## Directory Layout
 ### `/data`
