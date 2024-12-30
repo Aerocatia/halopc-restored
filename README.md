@@ -24,11 +24,9 @@ Faithful custom high resolution versions of certain transparency bitmaps, like d
 Also contains slightly higher resolution versions of bitmaps made by bungie that were used elsewhere (Xbox 1749, other parts of the final tagset).
 ### `/extra/highres_hud/tags`
 A high resolution version of the classic Halo HUD. This version is based on content originally made by Jesse (Holy Crust).
-Note that not all elements of the HUD can be high resolution due to limitations in Halo PC/Halo Custom Edition.
+Note that at this time not all elements of the HUD can be high resolution due to limitations in Halo PC/Halo Custom Edition.
 ### `/extra/highres_hud/loc/{de,es,fr,it}/tags`
 Translated data for the highres HUD.
-### `/extra/engine_workarounds/highres_hud/tags`
-Workarounds for the high resolution HUD tags. This includes 2X resolution HUD numbers (needs Chimera for waypoints to not look broken) and a workaround for the sniper ticks.
 
 ## Credits
 - Aerocatia
