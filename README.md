@@ -21,8 +21,8 @@ The base English Halo PC tagset with numerous bugfixes. This is a standalone tag
 The translated game data for Halo PC.
 ### `/extra/gearbox_shader_bitmaps/tags`
 Bitmaps for the old Halo PC shaders made by Gearbox.
-These must be loaded in before `tags` if you with to make resource maps that are compatible with old Custom Edition maps.
-These tags should not be used for anyhting else, as they conflict with the base tagset.
+These must be loaded in before `tags` if you wish to make resource maps that are compatible with old Custom Edition maps.
+These tags should not be used for anything else, as they conflict with the base tagset.
 ### `/extra/highres_bitmaps/tags`
 Faithful custom high resolution versions of certain transparency bitmaps, like doors, control panels, and the KOTH Hill.
 Also contains slightly higher resolution versions of bitmaps made by bungie that were used elsewhere (Xbox 1749, other parts of the final tagset).
@@ -31,6 +31,8 @@ A high resolution version of the classic Halo HUD. This version is based on cont
 Note that at this time not all elements of the HUD can be high resolution due to limitations in Halo PC/Halo Custom Edition.
 ### `/extra/highres_hud/loc/{de,es,fr,it}/tags`
 Translated data for the highres HUD.
+### `/extra/xbox_weapon_stats/tags`
+Weapons set with the same settings as the Xbox version. These are separate as the tags will cause desync if used to make PC stock-compatible multiplayer maps.
 
 ## Credits
 - Aerocatia
