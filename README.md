@@ -19,6 +19,10 @@ HSC script source for Halo PC.
 The base English Halo PC tagset with numerous bugfixes. This is a standalone tagset in which the other below variants can be optionally applied to.
 ### `/loc/{de,es,fr,it,jp,kr,tw}/tags`
 The translated game data for Halo PC.
+### `/extra/gearbox_shader_bitmaps/tags`
+Bitmaps for the old Halo PC shaders made by Gearbox.
+These must be loaded in before `tags` if you with to make resource maps that are compatible with old Custom Edition maps.
+These tags should not be used for anyhting else, as they conflict with the base tagset.
 ### `/extra/highres_bitmaps/tags`
 Faithful custom high resolution versions of certain transparency bitmaps, like doors, control panels, and the KOTH Hill.
 Also contains slightly higher resolution versions of bitmaps made by bungie that were used elsewhere (Xbox 1749, other parts of the final tagset).
