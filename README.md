@@ -51,12 +51,11 @@ The base English Halo PC tagset with numerous bugfixes. This is a standalone tag
 The translated game data for Halo PC.
 ### `/extra/highres_bitmaps/tags`
 Faithful custom high resolution versions of certain transparency bitmaps, like doors, control panels, and the KOTH Hill.
-Also contains slightly higher resolution versions of bitmaps made by bungie that were used elsewhere (Xbox 1749, other parts of the final tagset).
 ### `/extra/retail_demo_compatibility/tags`
 Tags needed for correct netcode sync when building for Retail Halo PC or Halo Trial. Invader will apply these changes automatically, but tool.exe does not.
 ### `/extra/skip_update_check/tags`
 Tags that change ui.map to bypass the Halo PC update check.
-### `/extra/xbox_order_multipurpose_bitmaps/tags
+### `/extra/xbox_order_multipurpose_bitmaps/tags`
 Multipurpose bitmaps in Xbox channel order with shader_model tags that have the `xbox multipurpose channel order` flag enabled.
 Note that these are incompatible with stock Halo resource maps, so take care that there are no accidental depedencies due to tool bugs.
 Many custom tags made for Halo Custom Edition expect stock tags in Gearbox order, however more modern custom tags for MCC expect them in Xbox order.
