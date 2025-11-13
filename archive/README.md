@@ -65,3 +65,4 @@ weapons\shotgun\bitmaps\shotshell.bitmap
 
 ### /original_pc_resolution_hud
 HUD bitmaps using the same texture resolution as stock Halo PC. Does not depend on mods implementing both MCC and custom flags.
+These tags do use monochrome format and contain other miscellaneous fixes.
