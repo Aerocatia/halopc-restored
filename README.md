@@ -27,7 +27,9 @@ The following non-stock features are needed for full support:
 Note that due to `tool.exe` bugs there can be issues when building against resource maps made using tags other than the ones included in this tagset.
 This includes the stock resource maps that come with the game.
 It is recommended to either use custom resource maps with matching tags, or use a modified `tool.exe` executable that does not have such bugs.
-If any version `tool.exe` is used to build maps from this tagset, please run [tool-squisher](https://github.com/Aerocatia/tool-squisher) on them to ensure data correctness.
+
+If `tool.exe` is used to build maps from this tagset, [tool-squisher](https://github.com/Aerocatia/tool-squisher) 1.4 or higher **MUST** be run on them
+to further procces new fields used by these tags. If this is not done some fields will be corrupt.
 Feel free to ask [@Aerocatia](https://github.com/Aerocatia) (same name on discord) for more info.
 
 ## Differences compared to MCC
