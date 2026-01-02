@@ -67,6 +67,9 @@ Faithful custom high resolution versions of certain transparency bitmaps, like d
 Tags needed for correct netcode sync when building for Retail Halo PC or Halo Trial. Invader will apply these changes automatically, but tool.exe does not.
 ### `/extra/skip_update_check/tags`
 Tags that change ui.map to bypass the Halo PC update check.
+### `/extra/xbox_order_hud_meters/tags`
+HD HUD meter bitmaps in Xbox order with HUD the interface tags set to use them.
+These are incompatible with stock Halo resource maps, so take care that there are no accidental dependencies due to tool bugs.
 ### `/extra/xbox_order_multipurpose_bitmaps/tags`
 Multipurpose bitmaps in Xbox channel order with shader_model tags that have the `xbox multipurpose channel order` flag enabled.
 Note that these are incompatible with stock Halo resource maps, so take care that there are no accidental dependencies due to tool bugs.
