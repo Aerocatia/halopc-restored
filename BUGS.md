@@ -1,6 +1,6 @@
 # Known rendering bugs with Halo PC
 
-This is a list of known engine bugs related to the renderer, and are not caused by incorrect tag data.
+This is an imcomplete list of known engine bugs related to the renderer, and are not caused by incorrect tag data.
 
 ## bitmap
 
@@ -45,7 +45,7 @@ This is a list of known engine bugs related to the renderer, and are not caused 
 
 ## shader_transparent_generic
 
-- Implemented in ringworld.
+- Implemented in Chimera and ringworld.
 
 ## shader_transparent_water
 
@@ -55,8 +55,8 @@ This is a list of known engine bugs related to the renderer, and are not caused 
 ## unit_hud_interface, weapon_hud_interface
 
 - Meters do not fade to another color.
-    - Fixed in Ringworld. Can also be faked by stacking meters that fade to transparent in opposite directions for each color.
+    - Fixed in Chimera or Ringworld.
 - Meter state blending is imprecise, causing pixels to be enabled when they should not be (and vice versa).
-    - No fix. Exact meter values should still be used, however you need 1px of padding around all meter elements, including the edge. This requirement is why the Xbox HUD can not be directly used, as the elements are too small to include the padding.
+    - Fixed with Chimera.
 - Multitexture overlays do not blend correctly.
     - Fixed with Chimera.
