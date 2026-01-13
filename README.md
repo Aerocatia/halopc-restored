@@ -59,6 +59,8 @@ HSC script source for Halo PC.
 The base English Halo PC tagset with numerous bugfixes. This is a standalone tagset in which the other below variants can be optionally applied to.
 ### `/loc/{de,es,fr,it,jp,kr,tw}/tags`
 The translated game data for Halo PC.
+### `/extra/classic_480p_hud/tags`
+Version of the original Xbox HUD for Halo PC with Chimera.
 ### `/extra/gearbox_shader_bitmaps/tags`
 Tags needed to make backwards-compatible resource maps for Halo Custom Edition.
 ### `/extra/highres_bitmaps/tags`
