@@ -8,7 +8,7 @@
 # Assumed to be in path
 invader_crc := "invader-crc.exe"
 reindeer := "reindeer.exe"
-tool_squisher := "tool-squisher.exe"
+tool_squisher := "tool-squisher.exe --no-preserve-crc"
 
 # tool.exe from the 2004 HEK
 tool_hek := "./tool_hek.exe"
