@@ -3,9 +3,7 @@ The "Restored" tagset provides bug fixes and quality improvements for the tags a
 provided with the Halo Custom Edition Halo Editing Kit, including a complete restoration of Xbox shaders.
 
 This project does not set out to make changes that affect the playstyle or atmosphere of the game.
-Instead the goal is to fix bugs that occurred during the Halo PC porting process.
-
-By default Xbox shader tags are used, however if the downgraded Gearbox shaders are still needed they are available in the `gearbox-shaders` branch.
+Instead the goal is to fix bugs and regressions that occurred during the Halo PC porting process.
 
 ## Engine support
 Cache files (maps) can be compiled for the following engines from these tags, provided the below requirements are met:
@@ -19,8 +17,8 @@ No engine bug workarounds are used in these tags. A mod like [Chimera](https://g
 The following non-stock features are needed for full support:
 
 - Support for monochrome bitmaps
-- Support for the `0.5 hud scale` bitmap flag that was added to MCC
-- Support for the custom `force hud use highres scale` bitmap flag
+- Support for the `0.5 hud scale` (AKA `half hud scale`) bitmap flag that was added to MCC
+- Support for the custom `quarter hud scale` and `disable highres scale` bitmap flags
 - Support for shader_model `use xbox multipurpose channel order` flag (by default only so using the diffuse as a multi does the same thing it did on Xbox)
 - Support for `shader_transparent_generic` tags
 
@@ -46,9 +44,7 @@ Tags ported from MCC (or Xbox) will need to be updated to use the correct `gener
 #### HUD scale is still 480p
 MCC uses a boosted "hud canvas" of 960p (2x) with a bitmap flag to apply and extra 0.5 scale to provide 4x resolution HUD bitmaps.
 Here, we keep the original 480p anchor offsets and rely solely on bitmap flags to provide 4x HUD resolution.
-To port HUD tags from MCC, anchor offsets will need halved and the custom `force hud use highres scale` flag will need checked in the bitmap tags where needed.
-#### HUD meters still use Gearbox channel order
-Custom MCC HUD tags and meter bitmaps will need changed to use Gearbox channel order again.
+To port HUD tags from MCC, anchor offsets will need halved and the custom `quarter hud scale` flag will need checked in the bitmap tags where needed.
 
 ## Directory Layout
 ### `/archive`
